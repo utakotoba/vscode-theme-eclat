@@ -15,6 +15,12 @@ I hope you can relax here!
 
 ---
 
+### Installation
+
+You can install the color theme from [Marketplace](https://marketplace.visualstudio.com/items?itemName=aimless.eclat)!
+
+---
+
 ### Preview
 
 ![Éclat Nocturne](https://github.com/user-attachments/assets/f75b26fc-b00c-4014-a691-4ed4c30856a0)
