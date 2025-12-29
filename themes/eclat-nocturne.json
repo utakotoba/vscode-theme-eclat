@@ -273,6 +273,7 @@
 			"name": "Function",
 			"scope": [
 				"entity.name.function",
+				"meta.function-call",
 				"support.function"
 			],
 			"settings": {
@@ -503,5 +504,29 @@
 				"fontStyle": "italic"
 			}
 		},
+		// MARK: - Python Tokens
+		{
+			"name": "Python Docstrings",
+			"scope": [
+				"string.quoted.docstring.multi.python",
+				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+				"string.quoted.docstring.multi.python punctuation.definition.string.end.python"
+			],
+			"settings": {
+				"foreground": "#8F8F8A",
+			}
+		},
+		{
+			"name": "Python Decorators",
+			"scope": [
+				"punctuation.definition.decorator.python",
+				"meta.function.decorator.python support.type.python",
+				"meta.function.decorator.python entity.name.function.decorator.python"
+			],
+			"settings": {
+				"foreground": "#CE94A7",
+				"fontStyle": "italic"
+			}
+		}
 	],
 }
