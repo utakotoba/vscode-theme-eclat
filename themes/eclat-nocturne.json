@@ -252,6 +252,7 @@
 			"name": "Keyword",
 			"scope": [
 				"keyword",
+				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#DA7C7E"
@@ -273,6 +274,7 @@
 			"scope": [
 				"entity.name.type",
 				"support.type",
+				"storage.type"
 			],
 			"settings": {
 				"foreground": "#D1A075"
@@ -334,6 +336,7 @@
 			"name": "Property",
 			"scope": [
 				"variable.other.property",
+				"variable.other.enummember",
 				"support.type.property-name"
 			],
 			"settings": {
@@ -408,7 +411,6 @@
 			"name": "Rust Keyword",
 			"scope": [
 				"storage.type.rust",
-				"storage.modifier.rust"
 			],
 			"settings": {
 				"foreground": "#DA7C7E",
@@ -436,7 +438,47 @@
 		{
 			"name": "Rust Resetting",
 			"scope": [
-				"entity.name.type.lifetime.rust"
+				"entity.name.type.lifetime.rust",
+				"entity.name.module.rust"
+			],
+			"settings": {
+				"foreground": "#C0BEAF",
+			}
+		},
+		// MARK: - C Tokens
+		{
+			"name": "C Doc",
+			"scope": [
+				"comment.block.documentation.c punctuation.definition.comment.begin.documentation.c",
+				"comment.block.documentation.c punctuation.definition.comment.end.documentation.c"
+			],
+			"settings": {
+				"foreground": "#8F8F8A",
+			}
+		},
+		{
+			"name": "C Preprocessor",
+			"scope": [
+				"entity.name.function.preprocessor.c"
+			],
+			"settings": {
+				"foreground": "#3B9174",
+			}
+		},
+		{
+			"name": "C Macro",
+			"scope": [
+				"meta.preprocessor.macro.c"
+			],
+			"settings": {
+				"foreground": "#CE94A7",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C Resetting",
+			"scope": [
+				"meta.block.c"
 			],
 			"settings": {
 				"foreground": "#C0BEAF",
