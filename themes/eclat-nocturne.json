@@ -229,6 +229,15 @@
 	"tokenColors": [
 		// MARK: - Common Tokens
 		{
+			"name": "Primary",
+			"scope": [
+				"source"
+			],
+			"settings": {
+				"foreground": "#C0BEAF",
+			}
+		},
+		{
 			"name": "Comment",
 			"scope": [
 				"comment",
@@ -242,7 +251,9 @@
 		{
 			"name": "Comment Doc",
 			"scope": [
-				"comment.block.documentation"
+				"comment.block.documentation",
+				"comment.block.documentation punctuation.definition.comment.begin.documentation",
+				"comment.block.documentation punctuation.definition.comment.end.documentation"
 			],
 			"settings": {
 				"foreground": "#8F8F8A"
@@ -316,17 +327,19 @@
 				"constant.other",
 				"constant.language",
 				"constant.character",
+				"entity.name.function.preprocessor"
 			],
 			"settings": {
 				"foreground": "#3B9174",
 			}
 		},
 		{
-			"name": "Variable",
+			"name": "Variable / Namespace",
 			"scope": [
 				"variable",
 				"variable.parameter",
-				"variable.other.object"
+				"variable.other.object",
+				"entity.name.namespace"
 			],
 			"settings": {
 				"foreground": "#C0BEAF"
@@ -347,6 +360,7 @@
 			"name": "Operator / Punctuation",
 			"scope": [
 				"keyword.operator",
+				"entity.name.function.operator",
 				"punctuation.accessor",
 				"punctuation.semi"
 			],
@@ -387,9 +401,10 @@
 			}
 		},
 		{
-			"name": "Regex",
+			"name": "Special",
 			"scope": [
 				"string.regexp",
+				"storage.type.class.doxygen"
 			],
 			"settings": {
 				"foreground": "#AA9DCA"
@@ -447,25 +462,6 @@
 		},
 		// MARK: - C Tokens
 		{
-			"name": "C Doc",
-			"scope": [
-				"comment.block.documentation.c punctuation.definition.comment.begin.documentation.c",
-				"comment.block.documentation.c punctuation.definition.comment.end.documentation.c"
-			],
-			"settings": {
-				"foreground": "#8F8F8A",
-			}
-		},
-		{
-			"name": "C Preprocessor",
-			"scope": [
-				"entity.name.function.preprocessor.c"
-			],
-			"settings": {
-				"foreground": "#3B9174",
-			}
-		},
-		{
 			"name": "C Macro",
 			"scope": [
 				"meta.preprocessor.macro.c"
@@ -483,6 +479,29 @@
 			"settings": {
 				"foreground": "#C0BEAF",
 			}
-		}
+		},
+		// MARK: - C++ Tokens
+		{
+			"name": "C++ Keyword",
+			"scope": [
+				"storage.type.namespace.definition.cpp",
+				"storage.type.namespace.alias.cpp",
+				"keyword.other.namespace.alias.cpp"
+			],
+			"settings": {
+				"foreground": "#DA7C7E",
+			}
+		},
+		{
+			"name": "C++ Macro",
+			"scope": [
+				"meta.preprocessor.macro.cpp",
+				"meta.preprocessor.macro.cpp variable.other.macro.argument.cpp"
+			],
+			"settings": {
+				"foreground": "#CE94A7",
+				"fontStyle": "italic"
+			}
+		},
 	],
 }
