@@ -1,0 +1,5 @@
+# development
+*.vsix
+
+# os-related
+.DS_Store
