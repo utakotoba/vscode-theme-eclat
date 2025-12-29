@@ -10,6 +10,17 @@ Unlike other "eye-care" themes that rely on green-tinted backgrounds or low-cont
 
 I hope you can relax here!
 
+> [!NOTE]
+> I'm actively maintaining this theme! If you find a bug or have suggestions for the color palette, feel free to open an issue.
+
+---
+
+### Preview
+
+![Éclat Nocturne](https://github.com/user-attachments/assets/f75b26fc-b00c-4014-a691-4ed4c30856a0)
+
+<p align="end">Éclat Nocturne</p>
+
 ---
 
 Design by Kohane.
