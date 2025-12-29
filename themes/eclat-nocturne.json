@@ -231,6 +231,7 @@
 		{
 			"name": "Primary",
 			"scope": [
+				"text",
 				"source"
 			],
 			"settings": {
