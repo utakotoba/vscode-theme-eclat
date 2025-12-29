@@ -227,16 +227,7 @@
 		"editorBracketHighlight.foreground6": "#8F8F8A",
 	},
 	"tokenColors": [
-		{
-			"name": "Primary/Foreground",
-			"scope": [
-				"source",
-				"variable.other.readwrite"
-			],
-			"settings": {
-				"foreground": "#8F8F8A"
-			}
-		},
+		// MARK: - Common Tokens
 		{
 			"name": "Comment",
 			"scope": [
@@ -254,15 +245,13 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"foreground": "#878782"
+				"foreground": "#8F8F8A"
 			}
 		},
 		{
 			"name": "Keyword",
 			"scope": [
 				"keyword",
-				"storage.type",
-				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#DA7C7E"
@@ -284,8 +273,6 @@
 			"scope": [
 				"entity.name.type",
 				"support.type",
-				"storage.type.cs",
-				"storage.type.java"
 			],
 			"settings": {
 				"foreground": "#D1A075"
@@ -302,12 +289,9 @@
 			}
 		},
 		{
-			"name": "Number / Constant",
+			"name": "Number",
 			"scope": [
 				"constant.numeric",
-				"constant.language",
-				"constant.character",
-				"constant.other"
 			],
 			"settings": {
 				"foreground": "#D1A075"
@@ -324,13 +308,15 @@
 			}
 		},
 		{
-			"name": "Constant (Zed Special)",
+			"name": "Constant",
 			"scope": [
-				"variable.other.constant"
+				"variable.other.constant",
+				"constant.other",
+				"constant.language",
+				"constant.character",
 			],
 			"settings": {
 				"foreground": "#3B9174",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -358,10 +344,11 @@
 			"name": "Operator / Punctuation",
 			"scope": [
 				"keyword.operator",
-				"punctuation.accessor"
+				"punctuation.accessor",
+				"punctuation.semi"
 			],
 			"settings": {
-				"foreground": "#878782"
+				"foreground": "#8F8F8A"
 			}
 		},
 		{
@@ -369,7 +356,9 @@
 			"scope": [
 				"punctuation.section",
 				"punctuation.terminator",
-				"punctuation.separator"
+				"punctuation.separator",
+				"punctuation.brackets",
+				"punctuation.comma"
 			],
 			"settings": {
 				"foreground": "#8F8F8A"
@@ -395,44 +384,20 @@
 			}
 		},
 		{
-			"name": "Namespace / Module",
-			"scope": [
-				"entity.name.namespace",
-				"storage.modifier.import",
-				"storage.modifier.package"
-			],
-			"settings": {
-				"foreground": "#AA9DCA"
-			}
-		},
-		{
 			"name": "Regex",
 			"scope": [
-				"string.regexp"
+				"string.regexp",
 			],
 			"settings": {
 				"foreground": "#AA9DCA"
 			}
 		},
+		// MARK: - Rust Tokens
 		{
-			"name": "Title / Heading",
+			"name": "Rust Macro",
 			"scope": [
-				"markup.heading",
-				"entity.name.section"
-			],
-			"settings": {
-				"foreground": "#3B9174",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Rust Attributes",
-			"scope": [
-				"entity.name.type.content.rust",
 				"meta.attribute.rust",
-				"punctuation.definition.attribute.rust",
-				"storage.modifier.attribute.rust",
-				"entity.other.attribute-name.rust"
+				"punctuation.definition.attribute.rust"
 			],
 			"settings": {
 				"foreground": "#CE94A7",
@@ -440,48 +405,41 @@
 			}
 		},
 		{
-			"name": "Rust Cargo Doc / Documentation Comments",
+			"name": "Rust Keyword",
+			"scope": [
+				"storage.type.rust",
+				"storage.modifier.rust"
+			],
+			"settings": {
+				"foreground": "#DA7C7E",
+			}
+		},
+		{
+			"name": "Cargo Doc",
 			"scope": [
 				"comment.line.documentation.rust",
-				"comment.block.documentation.rust",
-				"punctuation.definition.comment.rust"
+				"comment.line.documentation.rust punctuation.definition.comment.rust"
 			],
 			"settings": {
-				"foreground": "#878782"
+				"foreground": "#8F8F8A",
 			}
 		},
 		{
-			"name": "Rust Macro",
+			"name": "Rust Punctuation",
 			"scope": [
-				"entity.name.function.macro.rust",
-				"support.function.macro.rust",
-				"variable.language.special.rust"
+				"punctuation.definition.lifetime.rust"
 			],
 			"settings": {
-				"foreground": "#AA9DCA",
-				"fontStyle": "italic"
+				"foreground": "#8F8F8A",
 			}
 		},
 		{
-			"name": "Rust Lifetime",
+			"name": "Rust Resetting",
 			"scope": [
-				"storage.modifier.lifetime.rust",
-				"entity.name.type.lifetime"
+				"entity.name.type.lifetime.rust"
 			],
 			"settings": {
-				"foreground": "#D1A075"
-			}
-		},
-		{
-			"name": "Rust Constants & Enums",
-			"scope": [
-				"entity.name.constant.rust",
-				"variable.other.constant.rust",
-				"entity.name.type.enum.rust"
-			],
-			"settings": {
-				"foreground": "#3B9174",
-				"fontStyle": "bold"
+				"foreground": "#C0BEAF",
 			}
 		}
 	],
