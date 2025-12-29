@@ -1,13 +1,36 @@
 {
   "name": "eclat",
   "displayName": "Eclat",
-  "description": "Immersed in peace and a muted color theme",
+  "description": "Immersed in peace and a muted code space",
   "version": "0.1.0",
+  "publisher": "aimless",
+  "license": "MIT",
+  "keywords": [
+    "theme",
+    "muted",
+    "dark",
+    "eclat",
+    "modern"
+  ],
+  "icon": "icon.png",
+  "homepage": "https://github.com/utakotoba/vscode-theme-eclat",
+  "repository": {
+    "url": "https://github.com/utakotoba/vscode-theme-eclat",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/utakotoba/vscode-theme-eclat/issues"
+  },
+  "galleryBanner": {
+    "color": "#191919",
+    "theme": "dark"
+  },
   "engines": {
-    "vscode": "^1.107.0"
+    "vscode": "^1.90.0"
   },
   "categories": [
-    "Themes"
+    "Themes",
+    "Other"
   ],
   "contributes": {
     "themes": [
