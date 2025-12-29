@@ -200,6 +200,7 @@
 		"peekViewResult.lineForeground": "#C0BEAFFF",
 		"peekViewResult.selectionBackground": "#C0628260",
 		"peekViewTitleDescription.foreground": "#C0BEAFFF",
+		"minimap.selectionHighlight": "#3F3136EE",
 		// disable all bracket highlighting
 		"editorBracketHighlight.foreground1": "#8F8F8A",
 		"editorBracketHighlight.foreground2": "#8F8F8A",
