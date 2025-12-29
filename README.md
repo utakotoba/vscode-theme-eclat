@@ -29,4 +29,12 @@ You can install the color theme from [Marketplace](https://marketplace.visualstu
 
 ---
 
+### Backlog
+
+There’s still a lot of work to be done. I’m currently focused on _correcting brightness_ and _matching luminance_ across common syntax blocks for a more consistent reading experience.
+
+I’m also working on standardizing the color scales using scripts to generate reliable palettes, as most current colors were picked manually. Additionally, I plan to build a centralized tool to manage a single source of truth for the colors, allowing me to map and auto-generate the theme for different applications.
+
+---
+
 Design by Kohane.
