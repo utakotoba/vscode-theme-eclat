@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Eclat",
+	"name": "Eclat Nocturne",
 	"colors": {
 		// MARK: - General
 		"foreground": "#C0BEAFFF",
