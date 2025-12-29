@@ -253,7 +253,8 @@
 			"scope": [
 				"comment.block.documentation",
 				"comment.block.documentation punctuation.definition.comment.begin.documentation",
-				"comment.block.documentation punctuation.definition.comment.end.documentation"
+				"comment.block.documentation punctuation.definition.comment.end.documentation",
+				"comment.block.documentation punctuation.definition.comment"
 			],
 			"settings": {
 				"foreground": "#8F8F8A"
@@ -351,6 +352,7 @@
 			"scope": [
 				"variable.other.property",
 				"variable.other.enummember",
+				"meta.object.member",
 				"support.type.property-name"
 			],
 			"settings": {
@@ -522,6 +524,29 @@
 				"punctuation.definition.decorator.python",
 				"meta.function.decorator.python support.type.python",
 				"meta.function.decorator.python entity.name.function.decorator.python"
+			],
+			"settings": {
+				"foreground": "#CE94A7",
+				"fontStyle": "italic"
+			}
+		},
+		// MARK: - JS & TS Tokens
+		{
+			"name": "JSDoc",
+			"scope": [
+				"punctuation.definition.block.tag.jsdoc",
+				"storage.type.class.jsdoc"
+			],
+			"settings": {
+				"foreground": "#AA9DCA",
+			}
+		},
+		{
+			"name": "TS Decorators",
+			"scope": [
+				"punctuation.decorator.ts",
+				"meta.decorator.ts",
+				"meta.decorator.ts variable.other.readwrite.ts"
 			],
 			"settings": {
 				"foreground": "#CE94A7",
