@@ -216,7 +216,11 @@
 		"peekViewResult.lineForeground": "#C0BEAFFF",
 		"peekViewResult.selectionBackground": "#C0628260",
 		"peekViewTitleDescription.foreground": "#C0BEAFFF",
+		// MARK: - Minimap
 		"minimap.selectionHighlight": "#3F3136EE",
+		"minimap.errorHighlight": "#A96061FF",
+		"minimap.warningHighlight": "#8B6F56FF",
+		"minimap.infoHighlight": "#655D79FF",
 		// MARK: - Resetting
 		// disable all bracket highlighting
 		"editorBracketHighlight.foreground1": "#8F8F8A",
