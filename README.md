@@ -37,4 +37,4 @@ I’m also working on standardizing the color scales using scripts to generate r
 
 ---
 
-Design by Kohane.
+Design by Ly.
